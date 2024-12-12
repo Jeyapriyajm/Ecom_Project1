@@ -2,7 +2,7 @@ import basket_icon from './basket_icon.png'
 import logo from './logo.png'
 import header_img from './header_img.png'
 import search_icon from './search_icon.png'
-import menu_1 from './menu_1.png'
+import menu_1 from './menu_1.jpg'
 import menu_2 from './menu_2.png'
 import menu_3 from './menu_3.png'
 import menu_4 from './menu_4.png'
@@ -10,6 +10,8 @@ import menu_5 from './menu_5.png'
 import menu_6 from './menu_6.png'
 import menu_7 from './menu_7.png'
 import menu_8 from './menu_8.png'
+import menu_9 from './menu_9.jpg'
+import menu_10 from './menu_10.jpg'
 
 import food_1 from './food_1.png'
 import food_2 from './food_2.png'
@@ -84,37 +86,46 @@ export const assets = {
 
 export const menu_list = [
     {
-        menu_name: "Salad",
+        menu_name: "Mint Chocalate Chip",
         menu_image: menu_1
     },
     {
-        menu_name: "Rolls",
+        menu_name: "Venilla",
         menu_image: menu_2
     },
     {
-        menu_name: "Deserts",
+        menu_name: "Avacado",
         menu_image: menu_3
     },
     {
-        menu_name: "Sandwich",
+        menu_name: "Mango",
         menu_image: menu_4
     },
     {
-        menu_name: "Cake",
+        menu_name: "Blueberry",
         menu_image: menu_5
     },
     {
-        menu_name: "Pure Veg",
+        menu_name: "Chocolates",
         menu_image: menu_6
     },
     {
-        menu_name: "Pasta",
+        menu_name: "Cookies N' Cream",
         menu_image: menu_7
     },
     {
-        menu_name: "Noodles",
+        menu_name: "Pistachio",
         menu_image: menu_8
-    }]
+    },
+    {
+        menu_name: "Lemon",
+        menu_image: menu_9
+    },
+    {
+        menu_name: "Cookie Dough",
+        menu_image: menu_10
+    },
+    ]
 
 export const food_list = [
     {
