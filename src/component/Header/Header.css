@@ -1,0 +1,63 @@
+.Header {
+    height: 40vw;
+    margin: 0;
+    background: url('/bg.jpg') no-repeat center center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-family: 'Arial, sans-serif';
+    overflow: hidden;
+    animation: FadeIn 3s;
+}
+
+.header-content {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; 
+    gap: 1.5vw;
+    right: 6vw;
+    bottom: 15%; 
+    max-width: 50%;
+    text-align: right; 
+    animation: FadeIn 5s;
+}
+
+.header-content h1 {
+    font-size: 3vw;
+    font-weight: bold;
+    margin: 0;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.header-content p {
+    font-size: 1.5vw;
+    line-height: 1.8;
+    margin: 0;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+.explore-button {
+    font-size: 1.2vw;
+    padding: 0.8vw 2vw;
+    background-color: #ff85a2;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.explore-button:hover {
+    background-color: #ff5670;
+}
+
+@keyframes FadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
