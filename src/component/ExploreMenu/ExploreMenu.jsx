@@ -38,10 +38,11 @@ function ExploreMenu({ catogery, setCatogery }) { // Properly destructure props
               alt={item.menu_name}
             />
             <p>{item.menu_name}</p>
+            
           </div>
+          
         ))}
       </div>
-      <hr />
     </div>
   );
 }
